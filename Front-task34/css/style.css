@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.header-all{
+    display: flex;
+ 
+}
+header{
+    padding: 20px 2rem;
+  
+}
+.header-left,.header-right{
+    width:50%;
+    
+} 
+.header-left a{
+    font-size: 20px;
+    padding-left: 5rem;
+    color: black;
+
+}
+.header-right{
+    text-align: center; 
+}
+.header-right a{
+    font-size: 17px;
+    padding: 0px 16px;
+    color: black;
+}
+#sec1{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+    text-align: center;
+    
+}
+#sec1 .first{
+    padding: 20px 3.5rem;
+}
+#sec1 .first h1{
+    color: white;
+    font-size:60px;
+    margin-bottom: 45px;
+    
+}
+#sec1 hr{
+width: 30px;
+  
+}
+#sec1 .first .btn-first{
+    padding: 20px 30px ;
+    border-radius: 30px;
+    background-color: #f4623a;
+    color: white;
+}
+
+#sec1 .first  p{
+   margin-bottom: 45px;
+   color:  rgba(255, 255, 255, 0.75) ;
+   font-size: 18px;
+}
+
+#sec2{
+padding: 8rem;
+background-color: #f4623a;
+text-align: center;
+}
+#sec2 .second h2{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+#sec2 .second hr{ 
+    width: 5%;
+    margin-bottom: 30px;
+ height: 0.2rem;
+ background-color: white;
+    
+}
+ #sec2 .second{
+     
+    justify-content: center;
+}
+ 
+#sec2 .second p{
+    color: white;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 40px;
+    
+}
+#sec2 .second a{
+    padding: 20px 36px;
+    background-color:white ;
+    border-radius: 30px;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+#sec3{
+    text-align: center;
+    padding: 7rem;
+   
+}
+#sec3 h2{
+    color: #212529;
+    font-size: 35px;
+}
+#sec3 hr{
+    background-color:#f4623a ;
+    width: 5%;
+    margin-top: 30px;
+ height: 0.2rem;
+}
+#sec3 .third-box{
+    display: flex;
+    justify-content: center;
+}
+#sec3 .third-box .box{
+  
+    width: 25%;
+   
+    margin-top: 30px;
+    padding: 40px 20px;
+}
+#sec3 .third-box .box p{
+    color: #6c757d;
+    font-size: 19px;
+}
+#sec3 .third-box .box i{
+    color:#f4623a ;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+#sec3 .third-box .box h3{
+    font-size: 1.5rem;
+    margin-bottom:10px ;
+}
